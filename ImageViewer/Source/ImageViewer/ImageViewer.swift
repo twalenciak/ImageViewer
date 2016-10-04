@@ -45,7 +45,7 @@ public final class ImageViewer: UIViewController, UIScrollViewDelegate, UIViewCo
     private var scrollView: UIScrollView!
     private var overlayView: UIView!
     private var closeButton: UIButton!
-    private var imageView = UIImageView()
+    public var imageView = UIImageView()
     
     private let displacedView: UIView
     private var applicationWindow: UIWindow? {
